@@ -33,4 +33,4 @@ RUN tar xf pubsubplus-connector-kafka-sink-${SOLACE_SINK}.tar -C /solace        
     chown -R solace:solace /solace
 
 USER solace
-CMD [ "./start.sh"]
+CMD ["./start.sh"]
